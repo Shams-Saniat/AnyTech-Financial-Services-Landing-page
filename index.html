@@ -116,7 +116,8 @@
                 <!-- card 1 -->
                 <div class="card bg-base-100 w-96 shadow-xl bg-sky-50 pt-10">
                     <figure>
-                        <i class="bg-blue-200 w-8 h-8 rounded-full text-white fa-solid fa-share-nodes text-xl -rotate-45"></i>
+                        <i
+                            class="bg-blue-200 w-8 h-8 rounded-full text-white fa-solid fa-share-nodes text-xl -rotate-45"></i>
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title font-bold">Full-suite solutions</h2>
@@ -127,7 +128,8 @@
                 <!-- card 2 -->
                 <div class="card bg-base-100 w-96 shadow-xl bg-sky-50 pt-10">
                     <figure>
-                        <i class="bg-teal-200 w-8 h-8 rounded-full text-white fa-regular fa-lightbulb text-xl -rotate-45"></i>
+                        <i
+                            class="bg-teal-200 w-8 h-8 rounded-full text-white fa-regular fa-lightbulb text-xl -rotate-45"></i>
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title font-bold">Simplify the complex</h2>
@@ -138,7 +140,8 @@
                 <!-- card 3 -->
                 <div class="card bg-base-100 w-96 shadow-xl bg-sky-50 pt-10">
                     <figure>
-                        <i class="bg-rose-200 w-8 h-8 rounded-full text-white fa-solid fa-microchip text-xl -rotate-45"></i>
+                        <i
+                            class="bg-rose-200 w-8 h-8 rounded-full text-white fa-solid fa-microchip text-xl -rotate-45"></i>
                     </figure>
                     <div class="card-body">
                         <h2 class="card-title font-bold">Cutting-edge tech</h2>
@@ -150,9 +153,45 @@
         </section>
 
         <!-- technology built for you section -->
-        <section>
-            <p class="text-blue-600 font-bold">TECHNOLOGY BUILT FOR YOU</p>
-            <h1 class="text-blue-900 text-7xl font-bold text-7xl">The future of finance</h1>
+        <section class="min-h-screen mt-40">
+            <p class="text-blue-600 font-bold mb-10">TECHNOLOGY BUILT FOR YOU</p>
+            <h1 class="text-blue-900 text-7xl font-bold text-7xl pb-8 mb-10">The future of finance</h1>
+            <!-- carosel section -->
+            <div class="carousel w-full">
+                <!-- slide 1 -->
+                <div id="slide1" class="carousel-item relative w-full">
+                    <img src="./assets/carousel/1.png" class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide4" class="btn btn-circle">❮</a>
+                        <a href="#slide2" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 2 -->
+                <div id="slide2" class="carousel-item relative w-full">
+                    <img src="./assets/carousel/2.png" class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide1" class="btn btn-circle">❮</a>
+                        <a href="#slide3" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 3 -->
+                <div id="slide3" class="carousel-item relative w-full">
+                    <img src="./assets/carousel/3.png" class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide2" class="btn btn-circle">❮</a>
+                        <a href="#slide4" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+                <!-- slide 4 -->
+                <div id="slide4" class="carousel-item relative w-full">
+                    <img src="./assets/carousel/4.png"
+                        class="w-full" />
+                    <div class="absolute left-5 right-5 top-1/2 flex -translate-y-1/2 transform justify-between">
+                        <a href="#slide3" class="btn btn-circle">❮</a>
+                        <a href="#slide1" class="btn btn-circle">❯</a>
+                    </div>
+                </div>
+            </div>
         </section>
 
         <!-- footer section -->
