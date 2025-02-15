@@ -27,7 +27,7 @@ Anytxn is a modern financial technology website built using HTML, Tailwind CSS, 
 - Section emphasizing the future of finance with modern tech-driven solutions.
 
 ### Footer Section
-- (To be implemented) Footer with company details and additional links.
+- Footer with company details and additional links.
 
 ## Setup and Usage
 1. Clone the repository:
